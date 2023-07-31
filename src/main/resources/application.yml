@@ -1,0 +1,30 @@
+server:
+  port: 9004
+
+
+razorpay:
+  key: rzp_test_hSr3FOlfuF8pZP
+  secret: 8gaoQJOfRNwCXEaKYcf2jXVq
+
+aes:
+  key: "mysecretkey01234"
+  iv: "myiv123456789010"
+
+service:
+  resort: http://localhost:9001
+  email-service: http://localhost:9003/api/email/sendEmail;
+  room: http://locahost:9002
+
+management:
+  server:
+    port: 9005
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      base-path: /ifactuatorendpointneedtpobechanged
+
+
+#spring:
+#  profiles:
+#    active: dev
