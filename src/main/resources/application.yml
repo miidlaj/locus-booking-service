@@ -1,6 +1,9 @@
 server:
   port: 9003
 
+spring:
+  application:
+    name: BOOKING-SERVICE
 
 razorpay:
   key: rzp_test_hSr3FOlfuF8pZP
@@ -15,3 +18,11 @@ service:
   email-service: http://localhost:9003/api/email/sendEmail;
   room: http://locahost:9002
 
+# eureka:
+#   client:
+#     register-with-eureka: true
+#     fetch-registry: true
+#     service-url:
+#       defaultZone: http://15.206.125.179:8761/eureka/
+#   instance:
+#     hostname: 15.206.125.179
