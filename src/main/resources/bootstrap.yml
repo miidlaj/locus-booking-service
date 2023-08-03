@@ -1,0 +1,6 @@
+# Cloud configuration server
+spring:
+  cloud:
+    config:
+      enabled: true
+      uri: http://15.206.125.179:9000
