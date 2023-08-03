@@ -7,8 +7,8 @@ WORKDIR /app
 # Copy the packaged JAR file into the container at /app
 COPY  target/booking-service-0.0.1-SNAPSHOT.jar booking-service.jar
 
-# Expose port 99001
-EXPOSE 9004
+# Expose port 9903
+EXPOSE 9003
 
 # Run the JAR file when the container starts
 CMD ["java", "-jar", "booking-service.jar"]
