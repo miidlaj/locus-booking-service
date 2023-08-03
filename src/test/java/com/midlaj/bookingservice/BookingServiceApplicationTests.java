@@ -12,11 +12,5 @@ class BookingServiceApplicationTests {
 	void contextLoads() {
 	}
 
-	@Autowired
-	private WalletService walletService;
-
-	@Test
-	public void createWalletForAdmin() {
-		walletService.createNewWallet(Long.valueOf(0));
-	}
+	
 }
