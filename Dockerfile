@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim-buster
 WORKDIR /app
 
 # Copy the packaged JAR file into the container at /app
-COPY  target/booking-service-0.0.1-SNAPSHOT.jar booking-service.jar
+COPY target/booking-service-0.0.1-SNAPSHOT.jar booking-service.jar
 
 # Expose port 9003
 EXPOSE 9003
