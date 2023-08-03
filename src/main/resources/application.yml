@@ -15,16 +15,3 @@ service:
   email-service: http://localhost:9003/api/email/sendEmail;
   room: http://locahost:9002
 
-management:
-  server:
-    port: 9005
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-      base-path: /ifactuatorendpointneedtpobechanged
-
-
-#spring:
-#  profiles:
-#    active: dev

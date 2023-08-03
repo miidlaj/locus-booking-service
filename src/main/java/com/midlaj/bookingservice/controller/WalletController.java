@@ -1,6 +1,5 @@
 package com.midlaj.bookingservice.controller;
 
-import com.midlaj.bookingservice.model.Wallet;
 import com.midlaj.bookingservice.service.WalletService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
