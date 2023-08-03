@@ -11,4 +11,4 @@ COPY target/booking-service-0.0.1-SNAPSHOT.jar booking-service.jar
 EXPOSE 9003
 
 # Run the JAR file when the container starts
-CMD ["java", "-jar", "resort-service.jar"]
+CMD ["java", "-jar", "booking-service.jar"]
